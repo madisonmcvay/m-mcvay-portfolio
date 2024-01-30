@@ -1,0 +1,146 @@
+/* Navigation */
+.custom-nav-color.navbar {
+  background: linear-gradient(to right, #679593, #e0ab8b);
+  margin-bottom: 2em;
+}
+.navbar-brand {
+  color: #f5f5f5;
+}
+
+.nav-link {
+  color: #f5f5f5;
+}
+
+body {
+  background-color: #222;
+  color: #f5f5f5;
+}
+
+/* Home Page */
+.home-body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.lm-btn {
+  background-color: #e0ab8b;
+  color: #f5f5f5;
+  margin-right: 0.5em;
+}
+
+.lm-btn:hover {
+  background-color: #a27d66;
+  color: #f5f5f5;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.port-btn {
+  border: 2px solid #679593;
+  color: #679593;
+  margin-left: 0.5em;
+  animation: pulseBorder 1500ms infinite alternate;
+}
+
+@keyframes pulseBorder {
+  0% {
+    border-color: #679593;
+  }
+  100% {
+    border-color: #e0ab8b;
+  }
+}
+
+.port-btn:hover {
+  background-color: #4b6968;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* About Page */
+.about-header {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
+  padding-left: 20em;
+  padding-right: 20em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Blog Page */
+.blog-body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.blog-header {
+  display: flex;
+  justify-content: center;
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Portfolio Page */
+.port-body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.port-header {
+  display: flex;
+  justify-content: center;
+}
+
+.port-card {
+  transition: transform 0.3s;
+}
+
+.port-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.port-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Contact Page */
+.form-btn {
+  background-color: #679593;
+  color: #f5f5f5;
+  margin-top: 1em;
+  width: 6em;
+  height: 3em;
+  padding: 0.5em;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form-btn:hover {
+  background-color: #4b6968;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right, #e0ab8b, #679593);
+  text-align: center;
+}
+
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.fa:hover {
+  color: #777;
+}
